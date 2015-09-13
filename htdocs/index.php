@@ -1,3 +1,8 @@
+<?php
+// get last Modified date of this file
+$lastMod = date ("F d Y", getlastmod());
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,14 +26,12 @@
   </head>
 
   <body>
-
     <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <header class="page-header">
         <h1>DWA15 Portfolio</h1>
-
-      </div>
+      </header>
       <!-- Bootstrap two-columns, first column right -->
       <div class="row">
 		<div class="col-md-4 col-md-push-8">
@@ -37,6 +40,8 @@
         <img src="http://static.projects.iq.harvard.edu/files/styles/profile_full/public/fas-roombook/files/cwilcox_id_photo.jpg?itok=jWUFtf75" alt="Curtis Wilcox">
         <figcaption>Curtis Wilcox</figcaption>
         </figure>
+        
+        <nav>
         <dl>
         	<dt><a href="http://p1.dwa15.cognize.org">Portfolio</a></dt>
         	<dd><a href="https://github.com/extra808/dwa15-p1">Project 1 GitHub <abbr title="repository">repo</abbr></a></dd>
@@ -50,7 +55,7 @@
         	<dt><a href="underconstruction.php?p4">Final Project <abbr title="To Be Determined">TBD</abbr></a></dt>
         	<dd><a href="underconstruction.php?p4">Project 4 GitHub <abbr title="repository">repo</abbr></a></dd>
         </dl>
-
+		</nav>
 		</div> <!-- /col-md-4 col-md-push-8 -->
 		<div class="col-md-8 col-md-pull-4">
 
@@ -77,6 +82,8 @@
 		</div> <!-- /col-md-8 col-md-pull-4 -->
       </div>
 
+	<footer class="well well-sm text-right">&copy; Curtis Wilcox <?php echo $lastMod; ?>
+	</footer>
     </div> <!-- /container -->
 
 
