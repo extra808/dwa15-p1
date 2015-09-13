@@ -70,24 +70,33 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>DWA15 Portfolio</h1>
-        <figure>
+
+      </div>
+      <!-- Bootstrap two-columns, first column right -->
+      <div class="row">
+		<div class="col-md-4 col-md-push-8">
+
+        <figure class="text-center">
         <img src="http://static.projects.iq.harvard.edu/files/styles/profile_full/public/fas-roombook/files/cwilcox_id_photo.jpg?itok=jWUFtf75" alt="Curtis Wilcox">
         <figcaption>Curtis Wilcox</figcaption>
         </figure>
         <dl>
-        	<dt><a href="http://p1.dwa15.cognize.org">Project 1: Portfolio</a></dt>
+        	<dt><a href="http://p1.dwa15.cognize.org">Portfolio</a></dt>
         	<dd><a href="https://github.com/extra808/dwa15-p1">Project 1 GitHub <abbr title="repository">repo</abbr></a></dd>
 
-        	<dt><a href="underconstruction.php?p2">Project 2: xkcd Password Generator</a></dt>
+        	<dt><a href="underconstruction.php?p2">xkcd Password Generator</a></dt>
         	<dd><a href="underconstruction.php?p2">Project 2 GitHub <abbr title="repository">repo</abbr></a></dd>
 
-        	<dt><a href="underconstruction.php?p3">Project 3: Developer's Best Friend</a> (Lorem Ipsum Generator and Random User Generator)</dt>
+        	<dt><a href="underconstruction.php?p3">Developer's Best Friend</a> (Lorem Ipsum Generator and Random User Generator)</dt>
         	<dd><a href="underconstruction.php?p3">Project 3 GitHub <abbr title="repository">repo</abbr></a></dd>
 
-        	<dt><a href="underconstruction.php?p4">Project 4: Final Project <abbr title="To Be Determined">TBD</abbr></a></dt>
+        	<dt><a href="underconstruction.php?p4">Final Project <abbr title="To Be Determined">TBD</abbr></a></dt>
         	<dd><a href="underconstruction.php?p4">Project 4 GitHub <abbr title="repository">repo</abbr></a></dd>
         </dl>
-        
+
+		</div> <!-- /col-md-4 col-md-push-8 -->
+		<div class="col-md-8 col-md-pull-4">
+
         <h2>Who I am, what I do</h2>
         <p>I'm a husband, uncle, and cat owner. I like <abbr title="speculative fiction">SF</abbr> books / movies / TV, "prestige television," theater, spicy food, and <a href="http://cognize.org/gallery/index.php?/category/3">international travel</a>. I'm interested in copyright reform and the maker movement.</p>
         
@@ -108,6 +117,7 @@
         <h2>My system platforms</h2>
         <p>I'm using a Mac in this class. At home, I've always used Macs, starting with a Mac Plus, and since coming to Harvard I use a Mac for work as well. However, previously I used a PC at work and still work with and support people using PCs. I also have experience using and administering Unix-based operating systems other than OS X, primarily from the command line.</p>
 
+		</div> <!-- /col-md-8 col-md-pull-4 -->
       </div>
 
     </div> <!-- /container -->
