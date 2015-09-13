@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Navbar Template for Bootstrap</title>
+    <title>Curtis's DWA15 Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/p1.css" rel="stylesheet">
@@ -38,7 +38,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="/">Project name</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -69,11 +69,45 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+        <h1>DWA15 Portfolio</h1>
+        <figure>
+        <img src="http://static.projects.iq.harvard.edu/files/styles/profile_full/public/fas-roombook/files/cwilcox_id_photo.jpg?itok=jWUFtf75" alt="Curtis Wilcox">
+        <figcaption>Curtis Wilcox</figcaption>
+        </figure>
+        <dl>
+        	<dt><a href="http://p1.dwa15.cognize.org">Project 1: Portfolio</a></dt>
+        	<dd><a href="https://github.com/extra808/dwa15-p1">Project 1 GitHub <abbr title="repository">repo</abbr></a></dd>
+
+        	<dt><a href="underconstruction.php?p2">Project 2: xkcd Password Generator</a></dt>
+        	<dd><a href="underconstruction.php?p2">Project 2 GitHub <abbr title="repository">repo</abbr></a></dd>
+
+        	<dt><a href="underconstruction.php?p3">Project 3: Developer's Best Friend</a> (Lorem Ipsum Generator and Random User Generator)</dt>
+        	<dd><a href="underconstruction.php?p3">Project 3 GitHub <abbr title="repository">repo</abbr></a></dd>
+
+        	<dt><a href="underconstruction.php?p4">Project 4: Final Project <abbr title="To Be Determined">TBD</abbr></a></dt>
+        	<dd><a href="underconstruction.php?p4">Project 4 GitHub <abbr title="repository">repo</abbr></a></dd>
+        </dl>
+        
+        <h2>Who I am, what I do</h2>
+        <p>I'm a husband, uncle, and cat owner. I like <abbr title="speculative fiction">SF</abbr> books / movies / TV, "prestige television," theater, spicy food, and <a href="http://cognize.org/gallery/index.php?/category/3">international travel</a>. I'm interested in copyright reform and the maker movement.</p>
+        
+        <p>I work at Harvard, I'm the <abbr title="Information Technology">IT</abbr> Manager for <a href="http://ims.fas.harvard.edu">Instructional Media Services</a> (IMS) and the manager of the <a href="http://atl.fas.harvard.edu">Adaptive Technology Lab</a> (ATL). I manage the IT staff and budget in IMS, administer departmental servers, provide support to the IMS staff, and provide IT support in <abbr title="Faculty of Arts and Sciences">FAS</abbr> classrooms. I also manage the ATL staff and budget, use my IT skills to advise on and support assistive technologies, and am involved with the work to advance Harvard's <a href="https://en.wikipedia.org/wiki/Web_accessibility">web accessibility</a>.</p>
+        <h2>Why I'm taking this course</h2>
+        <p>I'm taking this course to learn about and practice:</p>
+        <ul>
+        	<li>version control (git & GitHub)
+        	<li>using backend frameworks (Laravel)
+        	<li>the <a href="https://en.wikipedia.org/wiki/Model–view–controller"><abbr title="Model View Controller">MVC</abbr></a> software design pattern
+        	<li> <a href="https://en.wikipedia.org/wiki/Object-relational_mapping"><abbr title="Object-relational Mapping">ORM</abbr></a> in program and database design
+        </ul>
+        <p>I'm also using it as an opportunity to try out front-end frameworks (<a href="http://getbootstrap.com">Bootstrap</a>), <a href="http://sass-lang.com">Sass</a>, and I'm sure other tools and ideas.</p>
+
+        <h2>My previous programming experience</h2>
+        <p>I made <a href="http://cognize.org/ccwf/">my first web site</a> in 1995. In my <abbr title="Master of Science">MS</abbr> in IT program at <a href="http://www.rit.edu"><abbr title="Rochester Institute of Technology">RIT</abbr></a>, my coursework involved using C++, HTML & CSS, shell & batch (Windows) scripting, Lingo (Macromedia Director), and Perl. I've taken a number of classes at <abbr title="Division of Continuing Education">DCE</abbr> in which I've written code in <a href="https://en.wikipedia.org/wiki/Adobe_ColdFusion">ColdFusion</a>, C (including <a href="https://www.arduino.cc/en/Tutorial/Sketch">Arduino sketches</a>), PHP, JavaScript, SQL, <a href="https://en.wikipedia.org/wiki/Scratch_(programming_language)">Scratch</a>, <a href="https://en.wikipedia.org/wiki/Processing_(programming_language)">Processing</a>, and Java. In my IT career, not a lot of my time is spent programming but has included using many of the scripting languages I've used in school, particularly Perl and PHP, plus some AppleScript and <a href="https://en.wikipedia.org/wiki/FileMaker">FileMaker</a>.</p>
+
+        <h2>My system platforms</h2>
+        <p>I'm using a Mac in this class. At home, I've always used Macs, starting with a Mac Plus, and since coming to Harvard I use a Mac for work as well. However, previously I used a PC at work and still work with and support people using PCs. I also have experience using and administering Unix-based operating systems other than OS X, primarily from the command line.</p>
+
       </div>
 
     </div> <!-- /container -->
