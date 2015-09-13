@@ -1,1 +1,11 @@
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap";
+
+.content-nav {
+	@extend .col-md-4;
+	@extend .col-md-push-8;
+	}
+
+.content-prose {
+	@extend .col-md-8;
+	@extend .col-md-pull-4;
+	}

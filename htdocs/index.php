@@ -34,7 +34,7 @@ $lastMod = date ("F d Y", getlastmod());
       </header>
       <!-- Bootstrap two-columns, first column right -->
       <div class="row">
-		<div class="col-md-4 col-md-push-8">
+		<div class="content-nav">
 
         <figure class="text-center">
         <img src="http://static.projects.iq.harvard.edu/files/styles/profile_full/public/fas-roombook/files/cwilcox_id_photo.jpg?itok=jWUFtf75" alt="Curtis Wilcox">
@@ -57,7 +57,7 @@ $lastMod = date ("F d Y", getlastmod());
         </dl>
 		</nav>
 		</div> <!-- /col-md-4 col-md-push-8 -->
-		<div class="col-md-8 col-md-pull-4">
+		<div class="content-prose">
 
         <h2>Who I am, what I do</h2>
         <p>I'm a husband, uncle, and cat owner. I like <abbr title="speculative fiction">SF</abbr> books / movies / TV, "prestige television," theater, spicy food, and <a href="http://cognize.org/gallery/index.php?/category/3">international travel</a>. I'm interested in copyright reform and the maker movement.</p>
