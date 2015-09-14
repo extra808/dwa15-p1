@@ -2197,5 +2197,6 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
+dd { margin-left: 1em; margin-left: 1rem; line-height: 214.28571%; }
 
 /*# sourceMappingURL=p1.css.map */

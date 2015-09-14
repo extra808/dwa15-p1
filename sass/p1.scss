@@ -1,5 +1,11 @@
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap";
 
+dd {
+	margin-left: 1em;
+	margin-left: 1rem;
+	line-height: $line-height-base * 150%;
+	}
+
 .content-nav {
 	@extend .col-md-4;
 	@extend .col-md-push-8;
