@@ -25,11 +25,8 @@ replace full Bootstrap with only the parts used
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
-dd, dt {
-	margin-bottom: .5em;
-	margin-bottom: .5rem;
-	}
 
+/* add indent */
 dd {
 	margin-left: 1em;
 	margin-left: 1rem;
@@ -44,22 +41,31 @@ dd {
 		}
 }
 
-/* disable dl-horizontal at larger widths */
 @media (min-width: $screen-sm-max + 1) {
 	.dl-horizontal {
+		dd, dt {
+			margin-bottom: .5em;
+			margin-bottom: .5rem;
+			}
+
+		/* disable dl-horizontal at larger widths */
 		dt {
 			float: none;
 			width: auto;
 			text-align: start;
 			}
+		/* reset indent */
 		dd {
 			margin-left: 1em;
 			margin-left: 1rem;
 			}
+
+
 		}
 	}
 
 @media (max-width: $screen-sm-max) {
+	/* increase spacing for links */ 
 	dd, dt {
 		padding-top: 8px;
 		padding-bottom: 8px;
