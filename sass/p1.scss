@@ -25,11 +25,46 @@ replace full Bootstrap with only the parts used
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
+dd, dt {
+	margin-bottom: .5em;
+	margin-bottom: .5rem;
+	}
+
 dd {
 	margin-left: 1em;
 	margin-left: 1rem;
-	line-height: $line-height-base * 150%;
 	}
+
+/* undo text-overflow */
+.dl-horizontal {
+	dt {
+		overflow: visible;
+		text-overflow: inherit;
+		white-space: normal;
+		}
+}
+
+/* disable dl-horizontal at larger widths */
+@media (min-width: $screen-sm-max + 1) {
+	.dl-horizontal {
+		dt {
+			float: none;
+			width: auto;
+			text-align: start;
+			}
+		dd {
+			margin-left: 1em;
+			margin-left: 1rem;
+			}
+		}
+	}
+
+@media (max-width: $screen-sm-max) {
+	dd {
+		padding: 10px;
+		}
+	}
+
 
 .content-nav {
 	@extend .col-md-4;

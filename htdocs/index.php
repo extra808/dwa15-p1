@@ -42,7 +42,7 @@ $lastMod = date ("F d Y", getlastmod());
         </figure>
         
         <nav>
-        <dl>
+        <dl class="dl-horizontal">
         	<dt><a href="http://p1.dwa15.cognize.org">Portfolio</a></dt>
         	<dd><a href="https://github.com/extra808/dwa15-p1">Project 1 GitHub <abbr title="repository">repo</abbr></a></dd>
 
