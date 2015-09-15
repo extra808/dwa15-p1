@@ -92,6 +92,6 @@ $lastMod = date ("F d Y", getlastmod());
     <!-- Placed at the end of the document so the pages load faster -->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="javascripts/ie10-viewport-bug-workaround.js"></script>
+    <script async src="javascripts/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
