@@ -1,4 +1,29 @@
-@import "../../bootstrap-sass/assets/stylesheets/bootstrap";
+/* @import "../../bootstrap-sass/assets/stylesheets/bootstrap"; 
+replace full Bootstrap with only the parts used
+*/
+
+// Core variables and mixins
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/print";
+/* @import "../../bootstrap-sass/assets/stylesheets/bootstrap/glyphicons"; */
+
+// Core CSS
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/type";
+/* @import "../../bootstrap-sass/assets/stylesheets/bootstrap/code"; */
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/grid";
+
+// Components
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/wells";
+
+// Utility classes
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../../bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
 dd {
 	margin-left: 1em;
