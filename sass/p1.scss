@@ -4,7 +4,13 @@ replace full Bootstrap with only the parts used
 
 // Core variables and mixins
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+// place for custom variables
+@import "customVariables";
+
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+
 
 // Reset and dependencies
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/normalize";
@@ -24,6 +30,9 @@ replace full Bootstrap with only the parts used
 // Utility classes
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+// custom version of optional class, not sure where in import order this should go
+@import "customTheme";
 
 
 /* add indent */
