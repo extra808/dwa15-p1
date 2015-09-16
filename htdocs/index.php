@@ -38,8 +38,7 @@ $lastMod = date ("F d Y", getlastmod());
 
         <figure class="text-center">
         <img src="photos/curtis-holding-macaw_sm.jpg" 
-        	srcset="photos/curtis-holding-macaw_sm_2x.jpg 2x" 
-        	width="180px" alt="Curtis Wilcox">
+        	srcset="photos/curtis-holding-macaw_sm_2x.jpg 2x" alt="Curtis Wilcox">
         <figcaption>Curtis Wilcox</figcaption>
         </figure>
         
