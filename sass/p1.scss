@@ -10,7 +10,8 @@ replace full Bootstrap with only the parts used
 
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
-
+// custom version of optional class, not sure where in import order this should go
+@import "customTheme";
 
 // Reset and dependencies
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/normalize";
@@ -31,8 +32,6 @@ replace full Bootstrap with only the parts used
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
-// custom version of optional class, not sure where in import order this should go
-@import "customTheme";
 
 
 /* add indent */
