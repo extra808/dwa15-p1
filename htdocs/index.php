@@ -46,14 +46,14 @@ $lastMod = date ("F d Y", getlastmod());
         	<dt><a href="http://p1.dwa15.cognize.org">Portfolio</a></dt>
         	<dd><a href="https://github.com/extra808/dwa15-p1">Project 1 GitHub <abbr title="repository">repo</abbr></a></dd>
 
-        	<dt><a href="underconstruction.php?p2">xkcd Password Generator</a></dt>
-        	<dd><a href="underconstruction.php?p2">Project 2 GitHub <abbr title="repository">repo</abbr></a></dd>
+        	<dt>xkcd Password Generator</dt>
+        	<dd>Project 2 GitHub <abbr title="repository">repo</abbr></dd>
 
-        	<dt><a href="underconstruction.php?p3">Developer's Best Friend</a></dt>
-        	<dd><a href="underconstruction.php?p3">Project 3 GitHub <abbr title="repository">repo</abbr></a></dd>
+        	<dt>Developer's Best Friend</dt>
+        	<dd>Project 3 GitHub <abbr title="repository">repo</abbr></dd>
 
-        	<dt><a href="underconstruction.php?p4">Final Project <abbr title="To Be Determined">TBD</abbr></a></dt>
-        	<dd><a href="underconstruction.php?p4">Project 4 GitHub <abbr title="repository">repo</abbr></a></dd>
+        	<dt>Final Project <abbr title="To Be Determined">TBD</abbr></dt>
+        	<dd>Project 4 GitHub <abbr title="repository">repo</abbr></dd>
         </dl>
 		</nav>
 		</div> <!-- /col-md-4 col-md-push-8 -->
