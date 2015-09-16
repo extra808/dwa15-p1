@@ -37,8 +37,8 @@ $lastMod = date ("F d Y", getlastmod());
 		<div class="content-nav">
 
         <figure class="text-center">
-        <img src="http://static.projects.iq.harvard.edu/files/styles/profile_full/public/fas-roombook/files/cwilcox_id_photo.jpg?itok=jWUFtf75" alt="Curtis Wilcox">
-        <figcaption>Curtis Wilcox</figcaption>
+        <img src="photos/curtis-holding-macaw_sm.jpg" alt="Curtis Wilcox holding a macaw">
+        <figcaption>Curtis Wilcox holding a macaw</figcaption>
         </figure>
         
         <nav>
