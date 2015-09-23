@@ -47,8 +47,8 @@ $lastMod = date ("F d Y", getlastmod());
         	<dt><a href="http://p1.dwa15.cognize.org">Portfolio</a></dt>
         	<dd><a href="https://github.com/extra808/dwa15-p1">Project 1 GitHub <abbr title="repository">repo</abbr></a></dd>
 
-        	<dt>xkcd Password Generator</dt>
-        	<dd>Project 2 GitHub <abbr title="repository">repo</abbr></dd>
+        	<dt><a href="https://p2.dwa15.cognize.org">xkcd Password Generator</a></dt>
+        	<dd><a href="https://github.com/extra808/dwa15-p2">Project 2 GitHub <abbr title="repository">repo</abbr></a></dd>
 
         	<dt>Developer's Best Friend</dt>
         	<dd>Project 3 GitHub <abbr title="repository">repo</abbr></dd>
