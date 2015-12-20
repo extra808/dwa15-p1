@@ -53,8 +53,8 @@ $lastMod = date ("F d Y", getlastmod());
         	<dt><a href="http://p3.dwa15.cognize.org">Developer's Best Friend</a></dt>
         	<dd><a href="https://github.com/extra808/dwa15-p3">Project 3 GitHub <abbr title="repository">repo</abbr></a></dd>
 
-        	<dt>Final Project <abbr title="To Be Determined">TBD</abbr></dt>
-        	<dd>Project 4 GitHub <abbr title="repository">repo</abbr></dd>
+        	<dt><a href="http://p4.dwa15.cognize.org">Final Project: ATC Delivery</a></dt>
+        	<dd><a href="https://github.com/extra808/dwa15-p4">Project 4 GitHub <abbr title="repository">repo</abbr></a></dd>
         </dl>
 		</nav>
 		</div> <!-- /col-md-4 col-md-push-8 -->
